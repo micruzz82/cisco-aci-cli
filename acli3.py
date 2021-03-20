@@ -1147,7 +1147,7 @@ class Apic(Cmd):
         print('* - flag indicates configured but not mapped to any EPG interfaces')
 
         y = PrettyTable(["F", "NODE", "INTERFACE", "TOPOLOGY", "USAGE", "STATE", "SPEED", "PORT_SR_NAME",
-                         "POLICY_GROUP"])
+                         "POLICY_GROUP", "DESCRIPTION" ])
         y.align = "l"
         y.vertical_char = ' '
         y.junction_char = ' '
